@@ -20,10 +20,9 @@ const Navbar = () => {
           Menu
         </button>
 
-
         <div className="flex items-center justify-center flex-1 sm:justify-start">
           <img
-            src="/public/assets/images/logo.webp"
+            src="/assets/images/logo.webp"
             alt="Apple Logo"
             width={74}
             height={28}
@@ -57,7 +56,7 @@ const Navbar = () => {
                 className="text-black self-end"
                 onClick={toggleMenu}
               >
-                Close
+                X
               </button>
               {navLists.map((nav) => (
                 <div
